@@ -1,0 +1,38 @@
+Prompt 1 (ChatGPT): "how to keep original order of df after using value_counts"
+Response:
+"""
+value_counts() always sorts by count (descending) by default, which loses the original order of the dataframe.
+
+To keep presidents in the original order they first appear in the dataframe, do this:
+
+✅ Option 1 — Use pd.Categorical with the original order
+order = df["President"].drop_duplicates()     # order of appearance
+counts = df["President"].value_counts()       # counts
+
+# Reindex using the original order
+counts = counts.reindex(order)
+
+Plot it
+counts.plot(kind="bar")
+plt.xticks(rotation=90)
+
+✅ Option 2 — Use groupby instead of value_counts
+
+groupby does NOT reorder unless asked to:
+
+counts = df.groupby("President").size()
+
+# preserve order of appearance
+order = df["President"].drop_duplicates()
+counts = counts.reindex(order)
+
+Why this works
+
+drop_duplicates() returns presidents in the order they first appear.
+
+reindex(order) forces the counts to follow that order.
+
+If you want, paste your exact plotting code and I’ll modify it to preserve your order.
+"""
+
+Prompt 2:
