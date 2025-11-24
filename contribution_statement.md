@@ -11,6 +11,7 @@ Shrija:
 1. Worked on Part 1 with Owen
 2. Worked on Part 2 with Owen
 3. Added the "outputs" folder and added all figures to said folder
+4. Started the README
 
 Owen:
 1. Helped Name and Organize Files
