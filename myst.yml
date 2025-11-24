@@ -17,17 +17,12 @@ site:
 
 toc:
   - file: README.md
-    title: Project Overview
 
   - file: nlp-P01.ipynb
-    title: Part 1 — Data Loading & Exploration
 
   - file: nlp-P02.ipynb
-    title: Part 2 — Text Processing with spaCy
 
   - file: nlp-P03.ipynb
-    title: Part 3 — LDA & BERTopic Modeling
 
   - file: nlp-P04.ipynb
-    title: Part 4 — Word Frequency Analysis (1790–2024)
 
