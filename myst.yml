@@ -1,8 +1,8 @@
 version: 1
 
 project:
-  id: proj02-sotu-nlp
-  title: "Project 02 — Reproducibility in Natural Language Processing"
+  id: proj02-159-f25
+  title: Project 02 — Reproducibility in Natural Language Processing
   authors:
     - name: Shrija
     - name: Owen
@@ -12,25 +12,22 @@ project:
     binder:
       repo: https://github.com/UCB-stat-159-f25/proj02-shrija-owen-allison.git
 
-  # Table of Contents for the site
-  toc:
-    - file: README.md
-    - file: nlp-P01.ipynb
-    - file: nlp-P02.ipynb
-    - file: nlp-P03.ipynb
-    - file: nlp-P04.ipynb
-
 site:
   template: book-theme
-  title: "STAT 159 — NLP Project"
-  nav:
-    - text: "Home"
-      file: README.md
-    - text: "Part 1"
-      file: nlp-P01.ipynb
-    - text: "Part 2"
-      file: nlp-P02.ipynb
-    - text: "Part 3"
-      file: nlp-P03.ipynb
-    - text: "Part 4"
-      file: nlp-P04.ipynb
+
+toc:
+  - file: README.md
+    title: Project Overview
+
+  - file: nlp-P01.ipynb
+    title: Part 1 — Data Loading & Exploration
+
+  - file: nlp-P02.ipynb
+    title: Part 2 — Text Processing with spaCy
+
+  - file: nlp-P03.ipynb
+    title: Part 3 — LDA & BERTopic Modeling
+
+  - file: nlp-P04.ipynb
+    title: Part 4 — Word Frequency Analysis (1790–2024)
+
