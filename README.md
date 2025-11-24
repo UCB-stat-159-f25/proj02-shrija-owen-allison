@@ -5,6 +5,10 @@ This is the Stat 159/259 Fall 2025 Project 2 submission for Allison Nguyen, Shri
 
 ## Binder
 
+Click the badge below to run the project:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-shrija-owen-allison/HEAD)
+https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-shrija-owen-allison/HEAD
 ## Description 
 
 This project analyzes the full collection of U.S. Presidential State of the Union (SOTU) addresses from 1790–2024 and builds a fully reproducible natural language processing (NLP) workflow. The analysis proceeds through four main stages:
