@@ -1,3 +1,4 @@
+version: 1
 project:
   title: "Reproducibility in Natural Language Processing"
   description: "State of the Union Text Analysis — Stat 159/259, Fall 2025"
