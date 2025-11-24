@@ -29,7 +29,7 @@ We apply two major topic modeling methods:
 
 We compare the two approaches, interpret clusters, and visualize results using pyLDAvis and BERTopic’s interactive plotting tools.
 
-### Part 4: Open Ended Exploration
+### Part 4: Word Frequency Over Time
 
 ## Notes:
 1. The dataset is sourced from Kaggle: (https://www.kaggle.com/datasets/nicholasheyerdahl/state-of-the-union-address-texts-1790-2024)

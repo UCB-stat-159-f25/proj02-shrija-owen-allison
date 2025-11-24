@@ -1,0 +1,25 @@
+project:
+  title: "Reproducibility in Natural Language Processing"
+  description: "State of the Union Text Analysis — Stat 159/259, Fall 2025"
+  authors:
+    - "Allison Nguyen"
+    - "Owen Hill"
+    - "Shrija Malla"
+
+website:
+  root: index
+  pages:
+    - file: nlp-P01.ipynb
+      title: "Part 1: Data Loading & Exploration"
+    - file: nlp-P02.ipynb
+      title: "Part 2: Text Processing & TF–IDF"
+    - file: nlp-P03.ipynb
+      title: "Part 3: LDA & BERTopic Topic Modeling"
+    - file: nlp-P04.ipynb
+      title: "Part 4: Word Frequency Over Time"
+
+myst:
+  enable_extensions:
+    - colon_fence
+    - dollarmath
+    - linkify
