@@ -1,7 +1,10 @@
 Contribution Statement
 
 Allison:
-
+1. Worked on Part 3
+2. Completed Readme
+3. Completed MySt and Binder
+Note: Allison was ill the final week on the week of the project and emailed documentation to Jimmy for an apporved extension
 
 Shrija:
 1. Worked on Part 1 with Owen
