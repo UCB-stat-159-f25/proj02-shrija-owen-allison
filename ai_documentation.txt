@@ -35,4 +35,31 @@ reindex(order) forces the counts to follow that order.
 If you want, paste your exact plotting code and I’ll modify it to preserve your order.
 """
 
-Prompt 2:
+Prompt 2 (ChatGPT): "I keep getting a datetime is depreciated warning when running my code in jupyter. Is this ok?"
+
+Response:
+
+"""
+Good news — your imports are working correctly.
+Nothing is broken.
+
+What you're seeing is NOT an error.
+It's a DeprecationWarning, and it’s coming from Jupyter itself, not from your code.
+
+Here’s what is happening and what to do:
+1. This is only a warning — your libraries loaded successfully
+
+You can confirm because:
+
+There is no red "Error" traceback
+Only DeprecationWarning messages appear
+Your imports completed without stopping the kernel
+
+2. If you want to hide these warnings (optional)
+You can suppress them with:
+
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+Place that at the top of your notebook.
+"""
