@@ -1,26 +1,36 @@
 version: 1
+
 project:
-  title: "Reproducibility in Natural Language Processing"
-  description: "State of the Union Text Analysis — Stat 159/259, Fall 2025"
+  id: proj02-sotu-nlp
+  title: "Project 02 — Reproducibility in Natural Language Processing"
   authors:
-    - "Allison Nguyen"
-    - "Owen Hill"
-    - "Shrija Malla"
+    - name: Shrija
+    - name: Owen
+    - name: Allison
+  github: https://github.com/UCB-stat-159-f25/proj02-shrija-owen-allison
+  jupyter:
+    binder:
+      repo: https://github.com/UCB-stat-159-f25/proj02-shrija-owen-allison.git
 
-website:
-  root: index
-  pages:
+  # Table of Contents for the site
+  toc:
+    - file: README.md
     - file: nlp-P01.ipynb
-      title: "Part 1: Data Loading & Exploration"
     - file: nlp-P02.ipynb
-      title: "Part 2: Text Processing & TF–IDF"
     - file: nlp-P03.ipynb
-      title: "Part 3: LDA & BERTopic Topic Modeling"
     - file: nlp-P04.ipynb
-      title: "Part 4: Word Frequency Over Time"
 
-myst:
-  enable_extensions:
-    - colon_fence
-    - dollarmath
-    - linkify
+site:
+  template: book-theme
+  title: "STAT 159 — NLP Project"
+  nav:
+    - text: "Home"
+      file: README.md
+    - text: "Part 1"
+      file: nlp-P01.ipynb
+    - text: "Part 2"
+      file: nlp-P02.ipynb
+    - text: "Part 3"
+      file: nlp-P03.ipynb
+    - text: "Part 4"
+      file: nlp-P04.ipynb
